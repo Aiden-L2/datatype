@@ -10,8 +10,29 @@ for i in values:
     print(values[6])
     print(values[7]) """
 
-x = "this is a thing"
+""" #integer
+x=7
+#string
+name = "Aiden"
+#name.upper()
+#boolean
+isvalid=True
+#float
+bill = 56.87
+
+students = ["kevin, aiden, william"]
+students.append("kevin")
+print(students[1])
+for student in students:
+    if student == "kevin":
+        print(f'gamble {student}')
+
+#string
+y = input("money?")
+z = y + 5 """
+
+""" x = "I need money"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) """
