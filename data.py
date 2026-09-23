@@ -36,3 +36,6 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z) """
+
+sentence = input("three words setence")
+y = sentence.split()
