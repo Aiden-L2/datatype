@@ -37,5 +37,34 @@ z = y[0]
 print(y)
 print(z) """
 
-sentence = input("three words setence")
-y = sentence.split()
+""" x = input("hello star")
+y = len(x.split())
+print(y) """
+
+""" day_of_week = input("what day is today")
+if day_of_week == "Thursday":
+    print("correct")
+elif day_of_week == "thursday":
+    print("correct")
+else:
+    print("Nope") """
+
+""" x = "test"
+print(f"hello {x}")
+ """
+
+""" temp = 68
+if temp >68:
+    print('HOT')
+elif temp == 68:
+    print('warm')
+else:
+    print('cold') """
+
+
+number = int(input("give me a number"))
+print(number)
+if number == ("2,3"):
+    print("odd")
+else:
+    print("even")
