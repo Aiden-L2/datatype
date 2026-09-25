@@ -62,9 +62,29 @@ else:
     print('cold') """
 
 
-number = int(input("give me a number"))
+""" number = int(input("give me a number"))
 print(number)
-if number == (1, 2, 3):
+if number % 2 == 1:
     print("odd")
-else:
-    print("even")
+elif number % 2 == 0:
+    print("even") """
+
+
+
+
+
+
+total = input("How much is the bill")
+print(total)
+bill = 100
+tip = input("How was the service")
+if bill == "bad":
+    print(float(bill) * 1.05)
+elif bill == "okay":
+    print(float(bill) * 1.1)
+elif bill == "good":
+    print(float(bill) * 1.15)
+elif bill == "Perfect":
+    print(float(bill) * 1.2)
+
+    
