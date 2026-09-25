@@ -64,7 +64,7 @@ else:
 
 number = int(input("give me a number"))
 print(number)
-if number == ("2,3"):
+if number == (1, 2, 3):
     print("odd")
 else:
     print("even")
