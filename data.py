@@ -79,5 +79,13 @@ elif tip == "good":
 elif tip == "Perfect":
     print(float(bill) * 1.2) """
 
-Number = int(input("give me a number"))
-print(Number)
+def spaces(n,y,t):
+    n = input("how many spaces")
+n = 5
+y = [".",".","c","c","."]
+t = ["c","c",".","c","."]
+O = 0
+for i in range(n):
+    if y[i] == t[i] and y[i] == "c":
+        O = O + 1
+print("there are", str(O), "spaces")
