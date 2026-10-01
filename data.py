@@ -79,8 +79,8 @@ elif tip == "good":
 elif tip == "Perfect":
     print(float(bill) * 1.2) """
 
-def spaces(n,y,t):
-    n = input("how many spaces")
+""" def spaces(n,y,t):
+    n = input("twoto")
 n = 5
 y = [".",".","c","c","."]
 t = ["c","c",".","c","."]
@@ -88,4 +88,7 @@ O = 0
 for i in range(n):
     if y[i] == t[i] and y[i] == "c":
         O = O + 1
-print("there are", str(O), "spaces")
+print("there are", str(O), "spaces") """
+
+def find_factor():
+    factors = [1, 0]
