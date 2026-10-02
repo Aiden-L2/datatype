@@ -90,5 +90,25 @@ for i in range(n):
         O = O + 1
 print("there are", str(O), "spaces") """
 
-def find_factor():
-    factors = [1, 0]
+""" def find_factor(num):
+    factors = []
+    for i in range(1, num+1):
+        if num % i == 0:
+            factors.append(i)
+    return factors
+
+print(find_factor(36)) """
+
+def find_factor(num):
+    factors = []
+    for i in range(1, num+1):
+        if num % i == 0:
+            factors.append(i)
+    return factors
+
+print(find_factor(36))
+print(find_factor(12))
+
+def GCF():
+
+
